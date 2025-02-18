@@ -76,10 +76,10 @@ export default function Entrenadores() {
         </div>
         <div className="flex w-full justify-center md:mb-6 mb-24">
             <a
-              href="/logros"
+              href="/jugadores"
               className="mt-4 inline-block px-6 py-2 text-lg border border-black rounded-md hover:bg-black hover:text-white transition-all duration-300 hover:bg-white hover:text-black"
             >
-              LOGROS
+              JUGADORES
             </a>
 
           </div>

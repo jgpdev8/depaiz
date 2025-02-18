@@ -62,13 +62,21 @@ const closeModal = () => {
             </ul>
           
         </div>
+        <div className="flex w-full justify-center">
+          <a
+            href="/logros"
+            className="mt-4 inline-block px-6 py-2 text-lg border border-black rounded-md hover:bg-black hover:text-white transition-all duration-300 hover:bg-white hover:text-black"
+          >
+            LOGROS
+          </a>
 
+        </div>
       </motion.section>
       <motion.section
       initial={{ x: 100, opacity: 0 }}
       animate={{ x: 0, opacity: 1 }}
       transition={{ delay: 0.4, duration: 0.5 }}
-      className="flex flex-col md:flex-row items-center gap-8 mt-16 mb-24"
+      className="flex flex-col md:flex-row items-center gap-8 mt-16 mb-24 w-3/4 m-auto"
       >
 
       <PhotoCarousel photos={photos}></PhotoCarousel>

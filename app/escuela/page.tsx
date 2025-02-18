@@ -84,16 +84,16 @@ export default function School() {
         initial={{ y: 50, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.8, duration: 0.5 }}
-        className="space-y-4"
+        className="space-y-4  mb-24 pb-24"
       >
         <h2 className="text-3xl font-semibold">Información de Contacto</h2>
         <p>Para reservar una clase o para más información, por favor contáctanos:</p>
         <ul className="list-disc list-inside space-y-2">
-          <li>Email: info@padelpro.com</li>
+          <li>Email: info@info.com</li>
           <li>Teléfono: 123 456 789</li>
-          <li>Dirección: Calle Pádel 123, Ciudad Deportiva, 28001 Madrid</li>
+          <li>Dirección: Calle Pádel 123, Ciudad Deportiva, 11408 Jerez</li>
         </ul>
-        <Button className="bg-black text-white hover:bg-gray-800">Reservar una Clase</Button>
+        <Button className="bg-black text-white hover:bg-gray-800 mb-24">Reservar una Clase</Button>
       </motion.section>
     </motion.div>
   )

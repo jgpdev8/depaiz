@@ -1,11 +1,20 @@
-import React from "react";
+import Image from "next/image";
 
 const Header = () => {
   return (
-    <header
-      className="relative w-full h-[500px] flex items-center justify-center text-center bg-cover md:bg-center before:absolute before:inset-0 before:bg-black/50 before:filter before:grayscale"
-      style={{ backgroundImage: "url('photos/depaizHeader.jpg')" }}
-    >
+    <header className="relative w-full md:h-[500px] h-[650px] flex items-center justify-center text-center bg-black">
+      {/* Imagen de fondo */}
+      <Image
+        src="/photos/depaizHeader.jpg"
+        alt="Javier De Paiz"
+        layout="fill"
+        objectFit="cover"
+        className="absolute inset-0 z-0 grayscale md:object-center object-[0]"
+        priority
+      />
+      {/* Overlay */}
+      <div className="absolute inset-0 bg-black/50 z-1"></div>
+      {/* Contenido */}
       <div className="relative z-10 text-white">
         <h1 className="text-4xl font-bold">Javier De Paiz</h1>
         <a

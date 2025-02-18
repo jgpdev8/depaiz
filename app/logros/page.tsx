@@ -98,10 +98,10 @@ export default function Logros() {
         </ul>
         <div className="flex w-full justify-center md:mb-6 mb-24 mt-6">
             <a
-              href="/historia"
+              href="/escuela"
               className="mt-4 inline-block px-6 py-2 text-lg border border-black rounded-md hover:bg-black hover:text-white transition-all duration-300 hover:bg-white hover:text-black"
             >
-              JUGADORES
+              ESCUELA
             </a>
 
           </div>
