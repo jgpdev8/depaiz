@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <header
       className="relative w-full h-[500px] flex items-center justify-center text-center bg-cover md:bg-center before:absolute before:inset-0 before:bg-black/50 before:filter before:grayscale"
-      style={{ backgroundImage: "url('photos/2018-10-18 16.15.28.jpg')" }}
+      style={{ backgroundImage: "url('photos/depaizHeader.jpg')" }}
     >
       <div className="relative z-10 text-white">
         <h1 className="text-4xl font-bold">Javier De Paiz</h1>
