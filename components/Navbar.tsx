@@ -23,7 +23,7 @@ const Navbar = () => {
           alt="Javi de Paiz Escuela de Pádel"
           width={120}
           height={60}
-          className="object-contain"
+           className="object-contain md:w-[120px] md:h-[60px] w-[110px] h-[55px]"
           priority
         />
       </Link>

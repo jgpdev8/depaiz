@@ -47,7 +47,7 @@ export default function Historia() {
         </div>
         
       </motion.section>
-      <div className="flex w-full justify-center">
+      <div className="flex w-full justify-center md:mb-6 mb-24">
           <a
             href="/entrenadores"
             className="mt-4 inline-block px-6 py-2 text-lg border border-black rounded-md hover:bg-black hover:text-white transition-all duration-300 hover:bg-white hover:text-black"

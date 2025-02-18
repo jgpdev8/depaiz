@@ -72,7 +72,9 @@ export default function Entrenadores() {
           <p className="text-xl">El paso por las academias dirigidas por estos entrenadores no solo me ha garantizado un alto nivel de entrenamiento, sino que también me ha brindado un entorno de competencia constante, donde puedo medir mi progreso frente a otros profesionales de primer nivel. Además, la experiencia y el prestigio de Martínez y Amat me han dado la oportunidad de participar en circuitos de entrenamiento y torneos internacionales que han contribuido a mi crecimiento como jugador.</p>
 
           <p className="text-xl">En definitiva, mi formación bajo la dirección de <strong>Jorge Martínez</strong> y <strong>Mariano Amat</strong> ha sido un periodo clave en mi carrera. Su metodología, experiencia y capacidad para maximizar mi potencial los convierten en figuras imprescindibles en mi desarrollo como jugador profesional de pádel.</p>
-          <div className="flex w-full justify-center">
+          
+        </div>
+        <div className="flex w-full justify-center md:mb-6 mb-24">
             <a
               href="/logros"
               className="mt-4 inline-block px-6 py-2 text-lg border border-black rounded-md hover:bg-black hover:text-white transition-all duration-300 hover:bg-white hover:text-black"
@@ -81,8 +83,6 @@ export default function Entrenadores() {
             </a>
 
           </div>
-        </div>
-
       </motion.section>
 
     </motion.div>
