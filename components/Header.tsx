@@ -5,7 +5,7 @@ const Header = () => {
     <header className="relative w-full md:h-[500px] h-[650px] flex items-center justify-center text-center bg-black">
       {/* Imagen de fondo */}
       <Image
-        src="/photos/depaizHeader.jpg"
+        src="photos/depaizHeader.jpg"
         alt="Javier De Paiz"
         layout="fill"
         objectFit="cover"
